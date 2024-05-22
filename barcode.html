@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generate Barcode</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/jsbarcode@3.11.0/dist/JsBarcode.all.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Generate Barcode</h1>
+        <form id="barcode-form">
+            <label for="guardian-id">Guardian ID:</label>
+            <input type="text" id="guardian-id" required>
+            <button type="submit">Generate Barcode</button>
+        </form>
+        <svg id="barcode"></svg>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
